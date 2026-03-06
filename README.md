@@ -1,27 +1,26 @@
 # 📊 CodVeda-Data-Analytics-Internship
-# Level 1
 
-Welcome to my repository for the **CodVeda Data Analytics Internship**! This repository contains my Python implementation for the **Level 1 (Basic)** tasks, focusing on foundational data manipulation, cleaning, and exploratory data analysis.
-
-## 🎯 Objective
-The goal of this project is to demonstrate proficiency in handling raw data, identifying patterns, and visualizing relationships using Python. 
-
-**Tasks Selected:**
-- **Task 1:** Data Cleaning & Preprocessing
-- **Task 2:** Exploratory Data Analysis (EDA)
-- **Task 3 (Partial):** Generating and exporting visual reports
-
-## 🗂️ Dataset Used
-- **Dataset:** The classic **Iris Dataset**.
-- **Description:** A multivariate dataset containing 150 records of Iris flowers, detailing their sepal length, sepal width, petal length, petal width, and species (Setosa, Versicolor, Virginica).
+Welcome to my repository for the **CodVeda Data Analytics Internship**! This project showcases a progression from foundational data cleaning to advanced predictive modeling and natural language processing.
 
 ## 🛠️ Tools & Technologies
-- **Language:** Python 3
 - **Environment:** Google Colab / Jupyter Notebook
-- **Libraries Used:** 
-  - `pandas` (Data manipulation and cleaning)
-  - `numpy` (Numerical computations)
-  - `matplotlib` & `seaborn` (Data visualization)
+- **Language:** Python 3.x
+- **Libraries:** 
+  - `pandas`, `numpy`: Data manipulation
+  - `matplotlib`, `seaborn`: Data visualization
+  - `scikit-learn`: Machine Learning (Random Forest, Regression, Clustering)
+  - `statsmodels`: Time Series decomposition
+  - `nltk`, `textblob`: Natural Language Processing
+  - `wordcloud`: Text visualization
+
+---
+## 📁 Project Overview
+This repository contains the tasks completed during my internship, divided into three levels:
+1. **Level 1 (Basic):** Data cleaning and Exploratory Data Analysis (EDA).
+2. **Level 2 (Intermediate):** Statistical modeling, Time Series, and Clustering.
+3. **Level 3 (Advanced):** Predictive Classification and NLP Sentiment Analysis.
+
+# Level 1
 
 ## 🚀 What Was Accomplished
 ### 1. Data Cleaning & Preprocessing
@@ -42,5 +41,36 @@ The goal of this project is to demonstrate proficiency in handling raw data, ide
 - `iris.csv` : The raw dataset used for the analysis.
 - `iris_correlation_heatmap.png` : An exported visual plot generated during the EDA phase.
 
+
+# 🟡 Level 2: Intermediate Analytics
+*   **Task 1: Regression Analysis:** Performed linear regression to predict numerical outcomes and evaluated the model using R-squared metrics.
+*   **Task 2: Time Series Analysis:** Analyzed trends and seasonality in time-based data using moving averages and decomposition.
+*   **Task 3: Clustering (K-Means):** Implemented unsupervised learning to group similar data points using the **Elbow Method** to find the optimal number of clusters.
+
+# 🔴 Level 3: Advanced Modeling (Current Focus)
+*   **Task 1: Predictive Modeling (Classification):** 
+    - Built a **Churn Prediction Model** using the `churn-bigml-80.csv` dataset.
+    - Used a **Random Forest Classifier** to identify customers likely to leave the service.
+    - Applied **Label Encoding** and **Feature Scaling** to prepare the data.
+    - Evaluated the model using a **Confusion Matrix** and Classification Report.
+*   **Task 3: NLP - Sentiment Analysis:** 
+    - Analyzed social media text from the `Sentiment dataset.csv`.
+    - Performed text cleaning (tokenization, lowercase, and **stopword removal**).
+    - Used **TextBlob** to determine polarity scores (Positive, Negative, Neutral).
+    - Visualized the most common terms using a **WordCloud**.
+
+---
+
+## 📂 Repository Structure
+*   `Level1.ipynb`: Basic cleaning and EDA.
+*   `Level2.ipynb`: Regression, Time Series, and K-Means Clustering.
+*   `Level3.ipynb`: Churn Prediction and Sentiment Analysis notebooks.
+*   `/Datasets`: Contains the CSV files used across all tasks.
+
+---
+
+
+
 ## 🤝 Acknowledgments
-A special thanks to **CodVeda** for providing this practical internship opportunity to strengthen my Data Analytics skills!
+A special thanks to **CodVeda** for providing this practical internship opportunity to strengthen my Data Analytics skills and helped me bridge the gap between data theory and real-world application.!
+**Hashtags:** #CodvedaJourney #CodvedaExperience #FutureWithCodveda #CodvedaAchievements #CodvedaProjects #DataAnalytics #MachineLearning #NLP
